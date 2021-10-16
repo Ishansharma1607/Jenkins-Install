@@ -105,3 +105,23 @@ The supported time zones depend on the Java runtime Jenkins is running on. The l
 Africa/Abidjan
 
 
+
+
+
+
+-----------------------------------
+
+Apache TOMCAT --Download -- unzip
+
+conf--->Server (Search coonector port and change to any other port)
+cobf--->tomcat-users then
+
+DO this 
+<!--
+  <user username="admin" password="<must-be-changed>" roles="manager-gui"/>
+  <user username="robot" password="<must-be-changed>" roles="manager-script"/>
+-->
+<user username="deployer" password="deployer" roles="manager-script"/>      
+
+above line was added manually 
+
