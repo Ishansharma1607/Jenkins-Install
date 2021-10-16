@@ -113,7 +113,7 @@ Africa/Abidjan
 
 Apache TOMCAT --Download -- unzip
 
-conf--->Server (Search coonector port and change to any other port)
+conf--->Server (Search coonector port and change to any other port eg 9091)
 cobf--->tomcat-users then
 
 DO this 
